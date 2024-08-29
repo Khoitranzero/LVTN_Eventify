@@ -1,0 +1,67 @@
+.scroll-bar::-webkit-scrollbar {
+  width: 8px;
+  height: 8px;
+}
+
+.scroll-bar::-webkit-scrollbar-track {
+  background: #f1f1f1;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb {
+  background: #dad9d9;
+  border-radius: 6px;
+}
+
+.scroll-bar::-webkit-scrollbar-thumb:hover {
+  background: #e3e1e1;
+}
+table {
+  border-collapse: collapse;
+  width: 100%;
+}
+tr {
+  th {
+    position: sticky;
+    top: -1px;
+    background-color: #475467;
+    color: white;
+  }
+}
+td,
+th {
+  border: 1px solid #dddddd;
+  text-align: center;
+  padding: 8px;
+  white-space: nowrap;
+}
+// td:first-child,
+// th:first-child {
+//   width: 20px;
+// }
+.fc-toolbar-chunk {
+  .fc-today-button {
+    background-color: #ef6820 !important;
+    border-color: #ef6820 !important;
+    color: white !important;
+  }
+  .fc-toolbar-title {
+    text-transform: uppercases !important;
+    font-weight: 500 !important;
+  }
+  .fc-button-group {
+    button {
+      background-color: #ef6820 !important;
+      border-color: #ef6820 !important;
+      color: white !important;
+    }
+  }
+}
+.react-calendar-timeline .rct-header-root {
+  background: #475467 !important;
+  color: black !important;
+}
+.rct-item {
+  background: #ef6820 !important;
+  border-color: #ef6820 !important;
+  color: white !important;
+}

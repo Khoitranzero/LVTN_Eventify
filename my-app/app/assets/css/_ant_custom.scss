@@ -1,0 +1,58 @@
+th.ant-table-cell {
+  white-space: nowrap;
+  text-align: center;
+}
+.ant-select-selector:focus,
+.ant-select-selector:active,
+.ant-select-selector:hover {
+  border-color: #d0d5dd !important;
+}
+.ant-select-selector:not(:hover) {
+  border-color: #d0d5dd !important;
+}
+.ant-picker-cell-selected {
+  .ant-picker-cell-inner {
+    background: #ef6820 !important;
+  }
+}
+.ant-picker-cell-range-start,
+.ant-picker-cell-range-end {
+  .ant-picker-cell-inner {
+    background: #ef6820 !important;
+  }
+}
+.ant-picker-cell-today {
+  .ant-picker-cell-inner {
+    border: 1px solid #ef6820 !important;
+  }
+}
+.ant-picker-outlined:hover,
+.ant-picker-outlined:focus,
+.ant-picker-outlined:focus-within,
+.ant-picker-active-bar {
+  border-color: #ef6820 !important;
+}
+.ant-picker-active-bar {
+  border: 0;
+}
+.ant-picker-content {
+  thead {
+    tr {
+      th {
+        background-color: white !important;
+      }
+    }
+  }
+}
+.ant-btn-primary {
+  background-color: #ef6820 !important;
+}
+.ant-btn-default:hover {
+  border-color: #ef6820 !important;
+  color: #ef6820 !important;
+}
+.ant-input:hover,
+.ant-input:focus,
+.ant-input:focus-within {
+  border-color: #ef6820 !important;
+}

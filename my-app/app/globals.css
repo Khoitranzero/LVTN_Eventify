@@ -1,0 +1,9 @@
+@tailwind base;
+@tailwind components;
+@layer base {
+  * {
+    @apply font-courier;
+  }
+  
+}
+@tailwind utilities;

@@ -1,0 +1,20 @@
+.ant-pciker-cell,
+.ant-picker-cell-inner {
+  background-color: white;
+}
+.ant-picker-cell-selected {
+  .ant-picker-cell-inner {
+    background: #ef6820 !important;
+  }
+}
+.ant-picker {
+  height: 34px !important;
+  padding: 0 8px !important;
+}
+td:first-child,
+th:first-child {
+  width: fit-content;
+}
+// tr:nth-child(even) {
+//   background-color: white;
+// }
